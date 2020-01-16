@@ -1,9 +1,6 @@
 #include <systemc.h>
-
-#include "nasz_modul.cpp"
 #include "SignalWrite.h"
-//SW_2020_Dudek_Gorny_SystemC_[nazwa projektu]
-//dorota.dariusz@gmail.com
+
 SC_MODULE(procesor1) {
 
     sc_in_clk clock;
